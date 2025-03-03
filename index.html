@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="portfolio1.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><button class="btn">About</button></li>
+                    <li class="nav-item"><button class="btn " onclick="scrollToSection('Education')">Education</button></li>
+                    <li class="nav-item"><button class="btn " onclick="scrollToSection('Skills')">Skills</button></li>
+                    <li class="nav-item"><button class="btn ">Projects</button></li> 
+                    <li class="nav-item"><button class="btn ">Certifications</button></li>
+                    <li class="nav-item"><button class="btn ">Contact</button></li>
+                    <li class="nav-item"><a class="download" href="Divvela sairam resume.pdf" download>
+                        <button class="btn btn-primary" type="button">Download Resume</button>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="my photo.jpg" alt="Profile Picture" class="profile-img">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p><strong><h3>Hello! I'm <span style="color: #FFD700;">Sairam Divvela</span></strong>, a well-organized, creative, and goal-oriented graduate 
+            with excellent communication, problem-solving, and leadership skills. 
+            Eager to explore opportunities in Computer Science Engineering while developing advanced projects 
+            with efficiency and quality.</h3></p>
+        <p><h3>Passionate about leveraging innovative technologies to create impactful solutions and drive continuous improvement. 
+            My expertise lies in developing advanced, high-quality projects that prioritize efficiency, scalability, and user experience.</h3></p>
+        
+        <div class="contact-info">
+            <p><i class="fa fa-envelope"></i> <a href="divvelasairam25@gmail.com">divvelasairam25@gmail.com</a></p>
+            <p><i class="fa fa-phone"></i> <a href="tel:+919390474412">+91 9390474412</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </div>
+    <div id="Education">
+
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Education Section -->
+                <div class="col-md-6">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <div class="card-box mb-3">
+                        <h4><i class="icon">&#x1F393;</i>Swarna Bharathi Institute of Science and Technology (2020-2024)</h4>
+                        <p>Bachelor’s in Computer Science Engineering<br>Khammam, Telangana<br>CGPA: 7.1</p>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4><i class="icon">&#x1F393;</i>Telangana State Residential Junior College (2018-2020)</h4>
+                        <p>Intermediate: MPC<br>Enkoor(Khammam), Telangana.<br>Percentage: 80%</p>
+                    </div>
+                    <div class="card-box">
+                        <h4><i class="icon">&#x1F393;</i> GEETANJANI VIDYA NIKETAN High School (2018 Passed Out)</h4>
+                        <p><strong>Khammam , Telangana <br>Percentage: 80%</strong></p>
+                    </div>
+                </div>
+    
+                <!-- Skills Section -->
+                <div class="col-md-6">
+                    <h2 class="section-title">SKILLS</h2>
+                    <div class="card-box mb-3">
+                        <h4><i class="icon">&#128187;</i> Frontend:</h4>
+                        <p>HTML, CSS, Bootstrap, JavaScript.</p>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4><i class="icon">&#x1F4BB;</i> Core JAVA:</h4>
+                        <p>OOPS, Exception Handling, Multi-Threading, Collections.</p>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4><i class="icon">&#128187;</i> Advanced JAVA:</h4>
+                        <p>JDBC, Servlets, JSP, Spring/Spring-boot, RESTful Webservices, JPA.</p>
+                    </div>
+                    <div class="card-box">
+                        <h4><i class="icon">&#128202;</i> MySQL:</h4>
+                        <p>DDL, DML, DCL, DQL, TCL.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <div id="Projects">
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Projects Section -->
+                <div class="col-md-6">
+                    <h2 class="section-title">PROJECTS</h2>
+                    <div class="card-box mb-3">
+                        <h4><i class="icon1"></i>EmirCorps:</h4>
+                        <p class="p1">I was part of the development team for this website. Utilized HTML, CSS, Bootstrap, and JavaScript to enhance the website's appearance, usability, and user experience.
+                        <br>Web Development<br>https://emircorp.com/</p>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4>THREE STEP VERIFICATION SYSTEM :</h4>
+                        <p class="p1">This project includes three levels of userauthentication.The aim to achieve maximum security in user authentication.
+                            It contains the three logins that have</p>
+                    </div>
+                </div>
+                
+                <!-- Certifications Section -->
+                <div class="col-md-6">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="card-box mb-3">
+                        <h4>Certificate on cloud computing (AWS) from Paypal</h4>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4>Certified AI and ML Professional, Course conducted by SETWIN through online.</h4>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4>Java Full Stack from Great throughs IT solution</h4>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4>Static Website Development from  Great Thoughts IT Solution</h4>
+                    </div>
+                    <div class="card-box mb-3">
+                        <h4> Build Your Own Responsive Website from Great Thoughts IT Solution</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+        }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
